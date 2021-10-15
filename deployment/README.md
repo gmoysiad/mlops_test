@@ -2,7 +2,7 @@
 
 ## Preparation
 
-If you don't have the model from the previous chapter, run `05-deploy.ipynb` to generate the pickle file.
+Run `modeling.ipynb` to generate the pickle file.
 
 ## Running without Docker
 
