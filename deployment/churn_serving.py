@@ -12,7 +12,6 @@ def predict_single(customer, dv, model):
 with open('../churn-model.bin', 'rb') as f_in:
     dv, model = pickle.load(f_in)
 
-
 app = Flask('churn')
 
 
