@@ -2,7 +2,11 @@
 
 ## Preparation
 
+<<<<<<< Updated upstream
 Run `modeling.ipynb` to generate the pickle file.
+=======
+If you don't have the model from the churn_prediction, run `modeling.ipynb` to generate the pickle file.
+>>>>>>> Stashed changes
 
 ## Running without Docker
 
@@ -18,7 +22,7 @@ Run the service:
 python churn_serving.py
 ```
 
-Test it from python:
+Test it from python with `test_service.ipynb` notebook:
 
 ```python
 import requests
